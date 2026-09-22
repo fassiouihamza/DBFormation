@@ -15,7 +15,7 @@
             <div class="footer-contact">
                 <h4>Contact</h4>
                 <ul>
-                    <li><i class="ph ph-envelope-simple"></i> idbrahi11@gmail.com</li>
+                    <li><i class="ph ph-envelope-simple"></i> contact@idbformation.com</li>
                     <li><i class="ph ph-phone"></i> 06 17 81 32 39</li>
                 </ul>
             </div>

@@ -129,7 +129,7 @@ get_header(); ?>
                         <div class="info-content">
                             <h3>Email</h3>
                             <p>Envoyez-nous vos questions, nous vous répondrons rapidement.</p>
-                            <a href="mailto:idbrahi11@gmail.com">idbrahi11@gmail.com</a>
+                            <a href="mailto:contact@idbformation.com">contact@idbformation.com</a>
                         </div>
                     </div>
                     
