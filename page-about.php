@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qui sommes-nous ? | IDB Formation</title>
-    <meta name="description" content="Découvrez IDB Formation, organisme spécialisé dans les secteurs de l’assurance, de la banque et de l’immobilier.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+<?php
+/**
+ * Template Name: Page Qui sommes-nous
+ * 
+ * Modèle pour la page "Qui sommes-nous ?"
+ */
+
+get_header(); ?>
+
     <style>
         .page-header {
             padding: 160px 0 80px;
@@ -49,18 +46,6 @@
             line-height: 1.8;
         }
     </style>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">IDB <span>Formation</span></a>
-            <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html" class="active">Qui sommes-nous ?</a></li>
-                <li><a href="contact.html" class="btn-primary-outline">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
     <header class="page-header">
         <div class="container">
@@ -85,34 +70,4 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <!-- Re-use footer structure from index.html -->
-        <div class="container footer-container">
-            <div class="footer-brand">
-                <a href="index.html" class="logo">IDB <span>Formation</span></a>
-                <p>Organisme de formation spécialisé dans les secteurs réglementés.</p>
-            </div>
-            <div class="footer-links">
-                <h4>Navigation</h4>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="about.html">Qui sommes-nous ?</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h4>Contact</h4>
-                <ul>
-                    <li><i class="ph ph-envelope-simple"></i> idbrahi11@gmail.com</li>
-                    <li><i class="ph ph-phone"></i> 06 17 81 32 39</li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p>&copy; 2026 IDB Formation. Tous droits réservés.</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+<?php get_footer(); ?>
