@@ -1,0 +1,29 @@
+name: Déploiement Hostinger FTP
+
+on:
+  push:
+    branches:
+      - main # Le déploiement s'active automatiquement quand on pousse sur la branche main
+
+jobs:
+  deploy:
+    name: Déploiement du thème WordPress
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Récupération du code
+        uses: actions/checkout@v4
+
+      - name: 📂 Déploiement FTP vers Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # On déploie uniquement le code de notre thème dans le bon dossier WordPress chez Hostinger !
+          server-dir: /public_html/wp-content/themes/idbformation/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/docker-compose.yml
+            **/.github/**
+            README.md
