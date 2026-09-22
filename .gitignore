@@ -1,0 +1,17 @@
+# Core WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+sitemap.xml
+sitemap.xml.gz
+
+# Ignore plugin and theme files if you manage them via composer or don't want them in git
+# wp-content/plugins/
+# wp-content/themes/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
