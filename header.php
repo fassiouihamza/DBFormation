@@ -14,6 +14,8 @@
             <ul class="nav-links">
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="<?php echo is_front_page() ? 'active' : ''; ?>">Accueil</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/qui-sommes-nous' ) ); ?>" class="<?php echo is_page('qui-sommes-nous') ? 'active' : ''; ?>">Qui sommes-nous ?</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/cgv' ) ); ?>" class="<?php echo is_page('cgv') ? 'active' : ''; ?>">CGV</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/mentions-legales' ) ); ?>" class="<?php echo is_page('mentions-legales') ? 'active' : ''; ?>">Mentions légales</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn-primary-outline <?php echo is_page('contact') ? 'active' : ''; ?>">Contact</a></li>
             </ul>
         </div>
