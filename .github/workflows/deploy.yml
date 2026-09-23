@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # On déploie uniquement le code de notre thème dans le bon dossier WordPress chez Hostinger !
-          server-dir: /wp-content/themes/idbformation/
+          server-dir: /public_html/wp-content/themes/idbformation/
           exclude: |
             **/.git*
             **/.git*/**
