@@ -11,6 +11,7 @@
                     <li><a href="<?php echo esc_url( home_url( '/qui-sommes-nous' ) ); ?>">Qui sommes-nous ?</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/cgv' ) ); ?>">CGV</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/mentions-legales' ) ); ?>">Mentions légales</a></li>
                 </ul>
             </div>
             <div class="footer-contact">
